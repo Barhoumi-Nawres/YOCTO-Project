@@ -1,0 +1,4 @@
+poky/
+kas/
+.kas_shell_history
+build/
