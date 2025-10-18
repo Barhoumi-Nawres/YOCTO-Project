@@ -15,5 +15,18 @@ a. Hint: check requirements.txt of the crunch project
 - Create a custom image based on core-image-minimal to integrate the crunch app
 - Test the application
 
-The application:
+The application link:
 [crunch](https://github.com/pri1311/crunch#)
+
+
+Python runtime dependencies :
+- Add them using the variable RDEPENDES 
+
+
+
+
+
+
+
+Links may can help you :
+[Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
