@@ -2,8 +2,8 @@ header:
   version: 14
 
 machine: qemux86-64
-distro: poky
-target: core-image-minimal
+distro: distro
+target: custom-image
 repos:
   poky:
     url: https://git.yoctoproject.org/poky
@@ -13,10 +13,16 @@ repos:
       meta:
       meta-poky:
       meta-yocto-bsp:
+  meta-openembedded:
+    url: https://git.openembedded.org/meta-openembedded
+    path: meta-openembedded
+    branch: scarthgap
+    layers:
+      meta-python:
+      meta-oe:
 
   meta-crunch:
    path: meta-crunch
-
 local_conf_header:
   base: |
     CONF_VERSION = "2"

@@ -2,3 +2,4 @@ poky/
 kas/
 .kas_shell_history
 build/
+meta-openembedded/
