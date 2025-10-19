@@ -45,9 +45,13 @@ A special thanks to [@bhstalel](https://github.com/TechLeef) for making this pro
 2. Clone the Repository 
  
   <code>git clone https://github.com/robseb/PiP2Bitbake.git</code>
+
+
 3. Start the python script :
 
-<code> python3 makePipRecipes.py
+  <code> python3 makePipRecipes.py
+
+
 
 4. On the script put the package name/License of the package
  
