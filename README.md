@@ -20,7 +20,7 @@ a. Hint: check requirements.txt of the crunch project
 
 
 ### Python runtime dependencies :
-- Add them using the variable RDEPENDES 
+- Add them using the variable <code>RDEPENDES</code> 
 
 
 ### Test 
@@ -30,12 +30,12 @@ a. Hint: check requirements.txt of the crunch project
 
 ### Layer Dependencies:
 This layer depends on 
-- meta-python 
+- <code>meta-python</code> 
 
 
 
 ### Credits :
-A special thanks to [@bhstalel](https://github.com/TechLeef) for making this project for Techleef community.
+- A special thanks to [@bhstalel](https://github.com/TechLeef) for making this project for Techleef community.
 
 
 ### To generate python package automatically using pip2Bitbake :
@@ -55,10 +55,23 @@ A special thanks to [@bhstalel](https://github.com/TechLeef) for making this pro
 
 4. On the script put the package name/License of the package
  
+### Test the application without systemd  service:
+
+Use this command :<code>python3 main.py</code>
+
+![command-test](screenshot/test1-app.png) 
+
+### Test with service systemd :
+![service-test](screenshot/service-test.png)
+
+### Application :
+![command-test](screenshot/app.png)
 
 #### Links can help you :
-[Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
-[Kas-container with Qemu](https://www.marcusfolkesson.se/blog/kas-container-and-qemu/)
-[pip2bitbake](https://github.com/robseb/PiP2Bitbake)
-[package cloudinary](https://pypi.org/search/?q=cloudinary)
-This project is for educational purposes.
+- [Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
+- [Kas-container with Qemu](https://www.marcusfolkesson.se/blog/kas-container-and-qemu/)
+- [pip2bitbake](https://github.com/robseb/PiP2Bitbake)
+- [package cloudinary](https://pypi.org/search/?q=cloudinary)
+
+
+- This project is for educational purposes.
