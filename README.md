@@ -15,13 +15,14 @@ a. Hint: check requirements.txt of the crunch project
 7. Create a custom image based on core-image-minimal to integrate the crunch app
 8. Test the application
 
-### The application link:
-[crunch](https://github.com/pri1311/crunch#)
+### Application Repository:
+Crunch Application:[crunch](https://github.com/pri1311/crunch#)
 
 
-### Python runtime dependencies :
+###  Python Runtime Dependencies :
 - Add them using the variable <code>RDEPENDES</code> 
 
+These dependencies can be generated automatically using pip2bitbake.
 
 ### Test 
 
@@ -33,27 +34,33 @@ This layer depends on
 - <code>meta-python</code> 
 
 
-### To generate python package automatically using pip2Bitbake :
- steps :
-1. install pip3 on development machine :
+### Generating Python Packages Automatically with pip2bitbake :
+ Steps :
+1. Install pip3 on development machine :
   <code>sudo apt-get -y install python-pip</code>
-2. Clone the Repository 
+2. Clone the <code>Pip2Bitbake</code> repository :
  
   <code>git clone https://github.com/robseb/PiP2Bitbake.git</code>
 
 
-3. Start the python script :
+3. Run the python script :
 
-  <code> python3 makePipRecipes.py
+  <code> python3 makePipRecipes.py </code>
 
 
-
-4. On the script put the package name/License of the package
+4. On the script enter the package name and license of the package
  
-### Test the application without systemd  service:
+### Test :
+#### Machine:
+<code>MACHINE = "qemux86-64"</code>
 
-Use this command :<code>python3 main.py</code>
+#### Test Without systemd Service:
 
+Test the Flask application manually using:
+
+  <code>python3 main.py</code>
+
+Then oprn your browser and go to:
 ![command-test](screenshot/test1-app.png) 
 
 ### Test with service systemd :
@@ -63,7 +70,7 @@ Use this command :<code>python3 main.py</code>
 ![app-test](screenshot/app.png)
 ![app-test](screenshot/app2.png)
 
-#### Links can help you :
+#### 🔗 Useful Resources:
 
  [Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
 
@@ -73,8 +80,5 @@ Use this command :<code>python3 main.py</code>
 
  [package cloudinary](https://pypi.org/search/?q=cloudinary)
 
-
-- This project is for educational purposes.
-
-### Credits :
-- A special thanks to [@bhstalel](https://github.com/TechLeef) for making this project for Techleef community.
+#### 🧠 Educational Purpose:
+- This project is developed for educational purposes within the [Techleef Community](https://github.com/TechLeef)
