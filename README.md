@@ -33,11 +33,6 @@ This layer depends on
 - <code>meta-python</code> 
 
 
-
-### Credits :
-- A special thanks to [@bhstalel](https://github.com/TechLeef) for making this project for Techleef community.
-
-
 ### To generate python package automatically using pip2Bitbake :
  steps :
 1. install pip3 on development machine :
@@ -65,13 +60,21 @@ Use this command :<code>python3 main.py</code>
 ![service-test](screenshot/service-test.png)
 
 ### Application :
-![command-test](screenshot/app.png)
+![app-test](screenshot/app.png)
+![app-test](screenshot/app2.png)
 
 #### Links can help you :
-- [Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
-- [Kas-container with Qemu](https://www.marcusfolkesson.se/blog/kas-container-and-qemu/)
-- [pip2bitbake](https://github.com/robseb/PiP2Bitbake)
-- [package cloudinary](https://pypi.org/search/?q=cloudinary)
+
+ [Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
+
+ [Kas-container with Qemu](https://www.marcusfolkesson.se/blog/kas-container-and-qemu/)
+
+ [pip2bitbake](https://github.com/robseb/PiP2Bitbake)
+
+ [package cloudinary](https://pypi.org/search/?q=cloudinary)
 
 
 - This project is for educational purposes.
+
+### Credits :
+- A special thanks to [@bhstalel](https://github.com/TechLeef) for making this project for Techleef community.
