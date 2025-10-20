@@ -24,11 +24,6 @@ Crunch Application:[crunch](https://github.com/pri1311/crunch#)
 
 These dependencies can be generated automatically using pip2bitbake.
 
-### Test 
-
-<code>-MACHINE= "qemux86-64"</code>
-
-
 ### Layer Dependencies:
 This layer depends on 
 - <code>meta-python</code> 
