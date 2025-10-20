@@ -1,6 +1,6 @@
 [Unit]
 Description= systemd service to run the flask application at boot 
-[service]
+[Service]
 Type=simple
 WorkingDirectory=/opt/crunch
 ExecStart=/usr/bin/python3 /opt/crunch/main.py
