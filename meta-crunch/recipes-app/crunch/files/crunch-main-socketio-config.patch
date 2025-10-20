@@ -1,0 +1,10 @@
+diff --git a/main.py b/main.py
+index b9b3b79..83f9400 100644
+--- a/main.py
++++ b/main.py
+@@ -218,4 +218,4 @@ def not_found(e):
+ 
+ 
+ if __name__ == '__main__':
+-    socketio.run(app, debug=True, port=5000)
++    socketio.run(app, debug=False, port=5000, host="0.0.0.0", allow_unsafe_werkzeug=True)
