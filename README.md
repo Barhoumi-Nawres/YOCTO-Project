@@ -62,11 +62,14 @@ Then oprn your browser and go to:
 ### Test with service systemd :
 ![service-test](screenshot/service-test.png)
 
-### Application :
-![app-test](screenshot/app.png)
-![app-test](screenshot/app2.png)
+<img src="screenshot/service-test.png" alt="service-test" width="480"/>
 
-#### 🔗 Useful Resources:
+
+### Application :
+<img src="screenshot/app.png" alt="app-test" width="450"/>
+<img src="screenshot/app2.png" alt="app-test" width="450"/>
+
+#### Useful Resources:
 
  [Yocto recipe for python application](https://stackoverflow.com/questions/54080551/how-to-install-dependencies-from-requirements-txt-in-a-yocto-recipe-for-a-local)
 
@@ -76,5 +79,5 @@ Then oprn your browser and go to:
 
  [package cloudinary](https://pypi.org/search/?q=cloudinary)
 
-#### 🧠 Educational Purpose:
+#### Educational Purpose:
 - This project is developed for educational purposes within the [Techleef Community](https://github.com/TechLeef)
