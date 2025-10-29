@@ -56,7 +56,8 @@ Test the Flask application manually using:
   <code>python3 main.py</code>
 
 Then oprn your browser and go to:
-![command-test](screenshot/test1-app.png) 
+<img src="screenshot/test1-app.png" alt="command-test" width="300"/>
+
 
 ### Test with service systemd :
 ![service-test](screenshot/service-test.png)
