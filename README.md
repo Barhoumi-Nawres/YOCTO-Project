@@ -60,14 +60,12 @@ Then oprn your browser and go to:
 
 
 ### Test with service systemd :
-![service-test](screenshot/service-test.png)
-
-<img src="screenshot/service-test.png" alt="service-test" width="480"/>
+<img src="screenshot/service-test.png" alt="service-test" width="400"/>
 
 
 ### Application :
-<img src="screenshot/app.png" alt="app-test" width="450"/>
-<img src="screenshot/app2.png" alt="app-test" width="450"/>
+<img src="screenshot/app.png" alt="app-test" width="440"/>
+<img src="screenshot/app2.png" alt="app-test" width="440"/>
 
 #### Useful Resources:
 
